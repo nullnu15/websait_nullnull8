@@ -5,22 +5,22 @@
   <title>تارنمای باشکوه nullnull8</title>
   <style>
     body {
-      background-color: #678678;
+      background-color: #000;
       color: #fff;
       text-align: center;
       font-family: Tahoma;
-      padding-top: 100px;
+      padding-top: 1000px;
     }
     input, button {
-      padding: 10px;
-      font-size: 18px;
+      padding: 100px;
+      font-size: 180px;
       border: none;
-      border-radius: 10px;
-      margin: 10px;
+      border-radius: 100px;
+      margin: 100px;
     }
     .welcome {
-      margin-top: 20px;
-      font-size: 24px;
+      margin-top: 200px;
+      font-size: 240px;
       color: #00e5ff;
     }
   </style>
