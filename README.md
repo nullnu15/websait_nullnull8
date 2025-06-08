@@ -2,46 +2,44 @@
 <html lang="fa">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>تارنمای nullnull8</title>
+  <title>تارنمای باشکوه nullnull8</title>
   <style>
     body {
-      background-color: #121212;
-      color: #f5f5f5;
-      font-family: 'Tahoma', sans-serif;
+      background-color: #000;
+      color: #fff;
       text-align: center;
+      font-family: Tahoma;
       padding-top: 100px;
     }
-
-    h1 {
-      color: #ff4444;
-      font-size: 48px;
-    }
-
-    p {
-      font-size: 20px;
-      color: #aaaaaa;
-    }
-
-    .btn {
-      margin-top: 40px;
-      padding: 12px 24px;
-      background-color: #00c853;
-      color: white;
-      border: none;
-      border-radius: 12px;
+    input, button {
+      padding: 10px;
       font-size: 18px;
-      cursor: pointer;
+      border: none;
+      border-radius: 10px;
+      margin: 10px;
     }
-
-    .btn:hover {
-      background-color: #00e676;
+    .welcome {
+      margin-top: 20px;
+      font-size: 24px;
+      color: #00e5ff;
     }
   </style>
 </head>
 <body>
-  <h1>درود بر جهان!</h1>
-  <p>من nullnull8 هستم، فرزند ایران، سازنده‌ی این تارنما.</p>
-  <button class="btn" onclick="alert('شکوه از آن توست، nullnull8!')">بر من کلیک کن</button>
+  <h1>درود بر تو!</h1>
+  <p>نامت را بنویس تا خوش‌آمدی شایسته دریافت کنی:</p>
+  
+  <input type="text" id="nameInput" placeholder="نامت را بنویس..." />
+  <button onclick="welcome()">نمایش خوش‌آمد</button>
+
+  <div class="welcome" id="output"></div>
+
+  <script>
+    function welcome() {
+      const name = document.getElementById('nameInput').value;
+      const message = درود بر تو، ${name} عزیز! شکوه از آن تو باد 🌟;
+      document.getElementById('output').innerText = message;
+    }
+  </script>
 </body>
 </html>
