@@ -5,7 +5,7 @@
   <title>تارنمای باشکوه nullnull8</title>
   <style>
     body {
-      background-color: #000;
+      background-color: #678678;
       color: #fff;
       text-align: center;
       font-family: Tahoma;
